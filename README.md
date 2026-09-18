@@ -1,19 +1,18 @@
 # StereoQueerEval - Training Data
 
-Training data for **StereoQueerEval** (SemEval 2027): detection of queer stereotypes and hate speech in YouTube comments, in **English, Italian and Dutch**. 
-(Persian data will be released only as part of the test set).
+Training data for **StereoQueerEval** (SemEval 2027): detection of queer stereotypes and hate speech in YouTube comments, in **English, Italian and Dutch**. Persian data will be released only as part of the test set.
 
 Each instance is a YouTube comment posted under a news video about LGBTQIA+ topics, annotated for the three subtasks. Comments are provided together with the title and description of the video they respond to, since the target of a comment is often only interpretable in context.
 
 ## Files
 
-| File | Comments |
+| File | Textual Triplets |
 |---|---|
 | `StereoQueerEval_EN_training.tsv` | 2,989 |
 | `StereoQueerEval_IT_training.tsv` | 2,400 |
 | `StereoQueerEval_NL_training.tsv` | 2,238 |
 
-The test sets (English, Italian, Dutch with the addition of Persian) will be released according to the task schedule (January 2027).
+The test sets (English, Italian, Dutch _with the addition of Persian_) will be released according to the task schedule in January 2027.
 
 ## Data access
 
