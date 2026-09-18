@@ -1,6 +1,7 @@
-# StereoQueerEval — Training Data
+# StereoQueerEval - Training Data
 
-Training data for **StereoQueerEval** (SemEval 2027): detection of queer stereotypes and hate speech in YouTube comments, in **English, Italian and Dutch**.
+Training data for **StereoQueerEval** (SemEval 2027): detection of queer stereotypes and hate speech in YouTube comments, in **English, Italian and Dutch**. 
+(Persian data will be released only as part of the test set).
 
 Each instance is a YouTube comment posted under a news video about LGBTQIA+ topics, annotated for the three subtasks. Comments are provided together with the title and description of the video they respond to, since the target of a comment is often only interpretable in context.
 
@@ -12,7 +13,7 @@ Each instance is a YouTube comment posted under a news video about LGBTQIA+ topi
 | `StereoQueerEval_IT_training.tsv` | 2,400 |
 | `StereoQueerEval_NL_training.tsv` | 2,238 |
 
-The test sets (EN 743, IT 597, NL 554) will be released according to the task schedule.
+The test sets (English, Italian, Dutch with the addition of Persian) will be released according to the task schedule (January 2027).
 
 ## Data access
 
@@ -22,8 +23,8 @@ The data files are distributed as a **password-protected RAR archive**. We recom
 
 ## Format
 
-UTF-8, tab-separated, one header line, fields quoted where needed (RFC 4180 style).
-⚠️ Titles, descriptions and comments may contain **newlines inside quoted fields**: read the files with a proper TSV parser (e.g. `pandas.read_csv(..., sep="\t")`, Python `csv`, Hugging Face `datasets`), not with line-based tools.
+UTF-8, tab-separated, one header line, fields quoted where needed.
+⚠️ Titles, descriptions and comments may contain **newlines ("\n") inside quoted fields**: read the files with a proper TSV parser (e.g. `pandas.read_csv(..., sep="\t")`, Python `csv`, Hugging Face `datasets`), not with line-based tools.
 
 ## Columns
 
@@ -42,11 +43,3 @@ Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqi
 ## Content warning
 
 The data contains offensive, hateful and discriminatory language towards LGBTQIA+ people, reproduced unaltered for research purposes.
-
-## License and citation
-
-*(add license)*
-
-```
-(add citation once the task description paper is available)
-```
