@@ -39,7 +39,7 @@ UTF-8, tab-separated, one header line, fields quoted where needed.
 | `hate_speech` | Is the comment hateful, and how? `no` / `yes_implicit` / `yes_explicit`. |
 | `target` | Target of the hate: `none` if `hate_speech` is `no`; otherwise scope (`group` or `individual`) + one or more target identities, e.g. `group_lgbtqia+`, `individual_t,nb`. |
 
-Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqia+` (the community as a whole), always listed in this order. `target` is non-`none` **if and only if** the comment is hateful.
+Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqia+` (the community as a whole), always listed in this order. `target` is present **if and only if** the comment is hateful, if the comment is not hateful then `target` must default to `none`.
 
 ## Content warning
 
