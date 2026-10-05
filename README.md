@@ -44,3 +44,22 @@ Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqi
 ## Content warning
 
 The data contains offensive, hateful and discriminatory language towards LGBTQIA+ people, reproduced unaltered for research purposes.
+
+## Licensing / Terms of Use
+
+By accessing or using this dataset, you agree to the following terms.
+
+###### 1. Permitted Use
+This dataset may be used only for academic, non-commercial research, and solely for participation in the StereoQueerEval shared task or directly related research.
+
+###### 2. No Redistribution
+You may not share, publish, or redistribute the raw dataset, or any substantial portion of it, to third parties in any form. This includes, but is not limited to, public repositories, websites, and supplementary materials.
+
+###### 3. No Commercial Use
+You may not use the dataset, or any derivative of it, for commercial purposes of any kind.
+
+###### 4. Retention
+You may keep the dataset after the shared task concludes for ongoing non-commercial research, provided you continue to comply with all other terms listed here.
+
+###### 5. Ethical Use
+This dataset contains content related to LGBTQ+ communities and stereotypes. Please handle it with care and respect. You may not use the dataset, any outputs derived from it, or any models trained on it in ways that could target, harm, discriminate against, or demean LGBTQ+ individuals or communities.
