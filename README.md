@@ -46,7 +46,7 @@ Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqi
 
 The data contains offensive, hateful and discriminatory language towards LGBTQIA+ people, reproduced unaltered for research purposes.
 
-## Licensing / Terms of Use
+## Terms of Use
 
 By accessing or using this dataset, you agree to the following terms.
 
