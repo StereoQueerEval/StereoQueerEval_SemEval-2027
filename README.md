@@ -44,9 +44,8 @@ Target identities: `l`, `g`, `b`, `t`, `q`, `i`, `a`, `nb` (non-binary), `lgbtqi
 
 ## Baselines
 
-Scores are averaged macro-F1. For Subtask C, Final Weighted Score = 0.5 × Target Macro-F1 + 0.5 × Identity Macro-F1.
-
 ### Subtask A – Stereotype detection
+Scores are averaged macro-F1. 
 | System | EN | IT | NL | FA |
 |---|---|---|---|---|
 | Random (uniform) | 0.4911 | 0.4674 | 0.5027 | 0.4525 ± 0.0423* |
@@ -56,6 +55,7 @@ Scores are averaged macro-F1. For Subtask C, Final Weighted Score = 0.5 × Targe
 | Qwen2.5-7B-Instruct | 0.6833 | 0.6353 | 0.6254 | 0.5584 |
 
 ### Subtask B – Hate detection
+Scores are averaged macro-F1. 
 | System | EN | IT | NL | FA |
 |---|---|---|---|---|
 | Random (uniform) | 0.3417 | 0.3251 | 0.2941 | 0.3076 ± 0.0338* |
@@ -65,6 +65,7 @@ Scores are averaged macro-F1. For Subtask C, Final Weighted Score = 0.5 × Targe
 | Qwen2.5-7B-Instruct | 0.4418 | 0.5033 | 0.4515 | 0.4219 |
 
 ### Subtask C – Target detection (Final Weighted Score)
+For Subtask C, Final Weighted Score = 0.5 × Target Macro-F1 + 0.5 × Identity Macro-F1.
 | System | EN | IT | NL | FA |
 |---|---|---|---|---|
 | Random (uniform) | 0.2898 | 0.3262 | 0.3379 | 0.3370 ± 0.0313* |
