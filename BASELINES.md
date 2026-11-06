@@ -53,8 +53,3 @@ Scores are averaged macro-F1. For Subtask C, Final Weighted Score = 0.5 × Targe
 | Random (most frequent) | 0.3135 | 0.2961 | 0.3067 | 0.3614 ± 0.0109 |
 | Qwen2.5-0.5B-Instruct | 0.1303 | 0.1598 | 0.1430 | 0.3093 |
 | Qwen2.5-7B-Instruct | 0.4479 | 0.4531 | 0.4403 | 0.3446 |
-
-## Notes
-
-- Baselines will be re-run on the test sets released in January 2027.
-- Qwen2.5-0.5B-Instruct on FA (Subtask C, Target Macro-F1) scores above the 7B model; this value is reported as obtained.
